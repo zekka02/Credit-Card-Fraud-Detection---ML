@@ -1,26 +1,19 @@
-Credit Card Fraud Detection – Machine Learning Project
-This project focuses on detecting fraudulent credit card transactions using supervised machine learning techniques. The dataset is imbalanced, so various models were trained and compared using balanced data (via undersampling).
+Credit Card Fraud Detection
+This project applies machine learning models to detect fraudulent credit card transactions using the Kaggle Credit Card Fraud Detection dataset. The data was highly imbalanced, so I used undersampling to balance it before training.
 
-Models tested:
-
+Models Tested
 Logistic Regression
-
-Shallow Neural Network
-
-Support Vector Machine (SVM)
 
 Random Forest
 
-Gradient Boosting Classifier
+Gradient Boosting
 
-After evaluating precision, recall, F1-score, and overall accuracy, SVM was selected as the final model due to its strong balance between fraud detection accuracy and low false positives.
+Support Vector Machine (SVM)
 
-Key features:
+Shallow Neural Network
 
-Balanced binary classification
+Key Result
+After balancing the data, SVM achieved the best performance with high precision (0.97) and F1-score (0.93) for the fraud class. The shallow neural net performed similarly but slightly behind.
 
-Model performance evaluation using precision, recall, and F1-score
-
-Final model: Support Vector Machine (SVM)
-
-Implemented using Python (scikit-learn, pandas, matplotlib)
+Tools
+Python (Pandas, Scikit-learn, TensorFlow, Matplotlib)
